@@ -29,6 +29,9 @@ public class Jurnal2 {
         }
         for(int c=1; c<=((n+1)-a)*2; c++){
         System.out.print("*");
+        }else{
+            System.out.print("0");
+            }
         }
         System.out.println();
         }
@@ -41,6 +44,9 @@ public class Jurnal2 {
         }
         for(int j=i*2; j>=1; j--){
         System.out.print("*");
+        }else{
+            System.out.print("0");
+            }
         }
         System.out.println();
         }
